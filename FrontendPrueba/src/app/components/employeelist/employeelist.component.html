@@ -1,0 +1,18 @@
+<h2>List Of Employees</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Salary</th>
+      <th>Annual Salary</th>
+    </tr>
+    <tr  *ngFor="let employee of listEmployees" >  
+      <td> {{employee?.id}} </td>
+      <td>{{employee?.employeeName}} </td>
+      <td>{{employee?.employeeAge}}</td>
+      <td>{{employee?.employeeSalary}}</td>
+      <td>{{employee?.anualEmployeeSalary}}</td>
+    </tr>
+  </table>
+ 
