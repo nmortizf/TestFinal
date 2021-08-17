@@ -1,3 +1,5 @@
-Proyecto Test
+El Backend es realizado en Java JDK 1.8 con Spring Boot
 
-Una linea mas
+El Frontend es realizado con Angular 12. El repositorio no toma la carpeta Node Modules por ende no la deja agregar. Se adjunta la carpeta app donde esta la logica de la aplicación.
+
+Se usa Cacheable en el backend ya que el servicio expuesto por el origen de Thales genera en ocasiones error 429 de muchas peticiones.
